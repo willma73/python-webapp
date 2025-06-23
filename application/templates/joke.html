@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block body_content %}
+  <h2>Tell me a joke</h2>
+<p>Number of jokes: {{number_of_jokes}}</p>
+  <form method="GET" action="/joke">
+      <div class="joke">
+      <p class="question" id="q">{{joke_question}}</p>
+      <p id="a">{{joke_answer}}</p>
+          </div>
+      <br>
+      <button type="submit" class="button">Tell me another</button>
+  </form>
+{% endblock %}
