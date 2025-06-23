@@ -23,7 +23,7 @@ footer {
    text-align: center;
 }
 
-.joke { background-color: crimson;
+.joke { background-color: cadetblue;
         padding: 1%;
         color: white;
         font-family: Verdana, serif;
@@ -33,7 +33,7 @@ footer {
 }
 
 .button {
-  background-color: DarkMagenta;
+  background-color: DarkGoldenrod;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -45,7 +45,7 @@ footer {
 }
 
 .button:hover {
-  background-color: #04AA6D; /* Green */
+  background-color: DarkKhaki;
   color: white;
 }
 

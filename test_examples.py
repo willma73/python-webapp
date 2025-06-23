@@ -81,7 +81,7 @@ def test_joke_count():
         response = test_client.get('/joke')
         assert response.status_code == 200
         assert b"Number of jokes" in response.data
-        assert b"12" in response.data
+        assert b"21" in response.data
 
 
 

@@ -33,5 +33,19 @@ joke_dict = {0: ["Why was Cinderella so bad a football?", "She kept running away
              8: ["What did the drummer name her twin daughters?", "Anna 1, Anna 2."],
              9: ["How does the moon cut his hair?", "Eclipse it."],
              10: ["Why did the scarecrow win an award?", "Because he was outstanding in his field."],
-             11: ["What’s brown and sticky?", "A stick."]
+             11: ["What’s brown and sticky?", "A stick."],
+             12: ["What do you call a sad cup of coffee?", "Depresso."],
+             13: ["Why didn't the melons get married?", "Because they cantaloupe."],
+             14: ["What goes up and down but doesn’t move?", "Stairs."],
+             15: ["What do you get when you cross a fish and an elephant?", "Swimming trunks."],
+             16: ["Why can’t a nose be 12 inches long?", "Because then it would be a foot."],
+             17: ["What do you call a magician that loses his magic?", "Ian."],
+             18: ["How do rabbits travel?", "By hareplanes."],
+             19: ["What do you call a sleeping dinosaur?", "A dino-snore."],
+             20: ["Why did the strawberry cry?", "He found himself in a jam."]
              }
+
+       
+@app.route('/hello')
+def hello():
+    return render_template('hello.html', title='Hello')
