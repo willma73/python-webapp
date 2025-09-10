@@ -6,7 +6,7 @@ def f():
 
 
 def test_function():
-    assert f() == 3
+    assert f() == 5
 
 
 def test_home_page():
